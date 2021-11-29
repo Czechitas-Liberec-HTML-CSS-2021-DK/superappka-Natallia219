@@ -31,3 +31,94 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    padding: 20px;
+    color: #48418e;
+    
+  }
+
+.container {
+    display: flex;
+    background: url("images/pozadi.jpg") no-repeat center;
+    width: 960px;
+    height: 400px;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    background-color: white;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 80px;
+    text-align: justify;
+    position: absolute;
+    left: 330px;
+    top: 50px;
+}
+
+.h2 {
+    font-size: 30px;
+    position: absolute;
+    left: 330px;
+    top: 200px;
+}
+
+.popis {
+    width: 22%;
+	padding: 2rem;
+	margin: 2rem;
+    font-size: 18px;
+    position: relative;
+    top: 240px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+    
+}
+
+.c2{
+    background-color: #48418e;
+}
+
+.paticka {
+    display: inline;
+    position: absolute;
+    top: 775px;
+    color: white;
+    background-color: #48418e;
+    width: 960px;
+    font-size: 10px;
+}
+
+.ikona {
+    height: 50px;
+    width: 50px; 
+}
+
+.tel {
+    position: absolute;
+    top: 76px;
+    left: 855px;
+}
+
+.ikonky {
+    margin: 20px;
+}
+
+.moznosti {
+    color: #25133d;
+}
